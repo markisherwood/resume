@@ -13,11 +13,11 @@
   \moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
   %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
   %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
-  
+
   % character encoding
   %\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
   %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
-  
+
   % adjust the page margins
   \usepackage[scale=0.75]{geometry}
 
@@ -33,16 +33,16 @@
   \usepackage{wrapfig}
   \usepackage{xcolor}
   \graphicspath{ {./images/} }
-  
+
 
   %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
   %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
-  
+
   % personal data
   \name{Mark}{Isherwood}
   % \title{Resumé}                               % optional, remove / comment the line if not wanted
   \address{Reservoir}{}{Victoria, Australia}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
-  \phone[mobile]{+61 409 538 515}          
+  \phone[mobile]{+61 409 538 515}
   \email{mark@markisherwood.me}                               % optional, remove / comment the line if not wanted
   \homepage{markisherwood.me}                         % optional, remove / comment the line if not wanted
   \social[linkedin]{mark-isherwood}                        % optional, remove / comment the line if not wanted
@@ -50,13 +50,13 @@
   % \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
   % \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
   % \quote{Some quote}                                 % optional, remove / comment the line if not wanted
-  
+
   % bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
   %   to show numerical labels in the bibliography (default is to show no labels)
   \makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
   %   to redefine the bibliography heading string ("Publications")
   %\renewcommand{\refname}{Articles}
-  
+
   % bibliography with mutiple entries
   %\usepackage{multibib}
   %\newcites{book,misc}{{Books},{Others}}
@@ -70,31 +70,44 @@
 
 \section{Experience}
   \subsection{Vocational}
-    \cventry{2014--Present}{Senior Developer}{Wunderman-Bienalto}{Melbourne}{}{Melbourne Technology Team Lead.\newline{}%
-    Detailed skills:
-    \begin{itemize}
-      \item Drupal:
+    \cventry{2018--Current}{Senior Developer}{Bliss Media}{Docklands}{}{Drupal technology lead\newline{}%
+      Detailed skills:
+      \begin{itemize}
+        \item Drupal
         \begin{itemize}
-          \item Worked on Drupal 7 and 8 websites.
+          \item Worked on Drupal 7 and 8 websites
           \item Experienced in custom module development
           \item Handled architecture for multiple Drupal websites
           \item Setup Apache Solr integration with Drupal and implemented custom sorting options
           \item Proficient with GovCMS
         \end{itemize}
+        \item Dev ops
+        \begin{itemize}
+          \item Developed improved deployment process to reduce risk and time cost
+          \item Evaluated multiple local development tools to standardise development processes
+          \item Instituted coding standards across projects
+        \end{itemize}
+      \end{itemize}}
+    \cventry{2014--2018}{Senior Developer}{Wunderman-Bienalto}{Melbourne}{}{Melbourne Technology Team Lead.\newline{}%
+    Detailed skills:
+    \begin{itemize}
+      \item Drupal
+        \begin{itemize}
+          \item Worked on multiple Drupal 7 and 8 websites.
+        \end{itemize}
+      \item Azure and \@.Net
+        \begin{itemize}
+          \item Developed web jobs for C\# and \@.Net to link multiple systems
+          \item Utilised Azure Service Bus to ensure a reliable method of processing input with traffic spikes
+          \item Created back-end services which worked with Dynamics through OData API
+        \end{itemize}
       \item Adobe Target
         \begin{itemize}
           \item Developed countless experiences through Adobe Target for multiple clients
-          \item Oversaw project to track users between multiple brands to better profile and target users for different experiences
         \end{itemize}
-      \item Microsoft Dynamics:
-      \begin{itemize}
-        \item Setup multiple instances on Microsoft Dynamics 365 for different projects
-        \item Created back-end services which worked with Dynamics through OData API
-      \end{itemize}
       \item Build Systems
         \begin{itemize}
-          \item Helped start and build a multi-purpose Gulp based build system for use on a wide variety of projects.
-          \item Integrated a wide number of common build tasks (SASS/Babel/HTML tempting/Testing) into a single common project which could be used for almost any project
+          \item Integrated a wide number of common build tasks (SASS/Babel/HTML tempting/Testing) into a framework which could be used for almost any project
         \end{itemize}
       \item Accessibility
       \begin{itemize}
@@ -103,9 +116,9 @@
       \end{itemize}
       \item Team Leadership
         \begin{itemize}
-          \item Team Lead for the Melbourne development team
-          \item Currently managing a team of 7 developers.
-          \item Handling scheduling for the team and ensuring resources are properly utilised
+          \item Was team lead for the Melbourne development team
+          \item Managed a team of 7 developers.
+          \item Handled scheduling for the team and ensuring resources are properly utilised
           \item Mentoring newer developers
         \end{itemize}
       \end{itemize}}
@@ -131,14 +144,6 @@
       \begin{itemize}
         \item Worked as sole maintainer of the online enrolment system for the university
       \end{itemize}
-      \item Thin Client Support
-      \begin{itemize}
-        \item Provided support for Citrix based thin clients across several office locations
-      \end{itemize}
-      \item Email and phone support
-      \begin{itemize}
-        \item Handled email and phone support for several different health care sites handling issues as required
-      \end{itemize}
     \end{itemize}}
 
 
@@ -157,8 +162,9 @@
   \cvitemwithcomment{Technologies}{AWS, Azure, Drupal, Node, Gulp, Yarn, Adobe Target, Apache Solr}{}
 
 \section{References}
-  \cvitemwithcomment{Alex Hobart}{Marketing Automation Lead}{+61 422 784 476}
+  \cvitemwithcomment{Matthew Gould}{Former developer colleage}{+61 405 553 466}
   \cvitemwithcomment{Drew Cosgrove}{Former Senior Manager}{+61 411 393 354}
+  \cvitemwithcomment{Johann Fischmann}{Developer colleage}{+61 400 169 772}
   Further references available upon request.
 
 \clearpage
@@ -170,7 +176,7 @@
       \vspace{-20pt}
     \end{wrapfigure}
     Engineers Australia is a professional body for the engineering field. I worked to develop their online membership portal for their Drupal 7 site.
-    
+
     The membership portal guided user's through the initial membership sign-up process, transferring to different membership tiers, renewal, and resignation. This included an administrative back-end for staff to process the applications through the workflow process.
 
     This project required extensive integration with Oracle based web services for handling business logic and data storage.
